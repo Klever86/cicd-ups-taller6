@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DemoDockerApplication",
+            "request": "launch",
+            "mainClass": "com.example.demodocker.DemoDockerApplication",
+            "projectName": "demo-docker"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoDockerApplication",
+            "request": "launch",
+            "mainClass": "com.example.demodocker.DemoDockerApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
